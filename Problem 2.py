@@ -1,12 +1,8 @@
-"""CS526 Homework 4, Problem 2: minimum elements with sum greater than T."""
-
-
 def smallest_number(numbers, target):
-    # An empty selection has sum zero.
     if 0 > target:
         return 0
 
-    # Taking the largest values first reaches the target with the fewest items.
+    #Taking the largest values first reaches the target with the fewest items.
     ordered = sorted(numbers, reverse=True)
     total = 0
     for count, value in enumerate(ordered, start=1):
