@@ -1,0 +1,17 @@
+CS526 Homework Assignment 4
+
+Problem 1: General tree
+
+Preorder:      A B E H F I C D G
+Breadth-first: A B C D E F G H I
+Postorder:     H E I F B C G D A
+
+Preorder visits the node before its children. Breadth-first visits nodes
+level by level. Postorder visits the children before the node.
+Children are visited from left to right.
+
+Problem 1: Binary tree (second Problem 1 in the assignment)
+
+In-order: D G B E A C H F I
+
+In-order visits the left subtree, then the node, then the right subtree.
